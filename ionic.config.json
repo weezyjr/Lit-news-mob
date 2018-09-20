@@ -1,0 +1,7 @@
+{
+  "name": "lit-news",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
