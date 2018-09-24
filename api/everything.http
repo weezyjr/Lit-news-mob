@@ -1,3 +1,3 @@
-GET https://newsapi.org/v2/everything?q=bitcoin HTTP/1.1
+GET https://newsapi.org/v2/everything?q=bitcoin&category=business HTTP/1.1
 Content-Type: application/json
 X-Api-Key: 3f79c5021cad489eb25a8b050cf36a4f

@@ -1,14 +1,14 @@
 # ToDo List
 
-- [] create a news mobile app using <https://newsapi.org/>
+- [*] create a news mobile app using <https://newsapi.org/>
 - [*] the app should start with login page that has Facebook Login button
-- [] when user login he should redirected to home page which contain some categories of news (title and image)
-- [] when user click on a category he should redirected to news page which contain list of news of this category (title and image only)
-- [] the news page should contain search bar to allow user to search on a specific news in this category
-- [] user can go back and select another category
-- [] when user click on any news in the list he should be redirected to single news page which contain all details of this news
+- [*] when user login he should redirected to home page which contain some categories of news (title and image)
+- [*] when user click on a category he should redirected to news page which contain list of news of this category (title and image only)
+- [*] the news page should contain search bar to allow user to search on a specific news in this category
+- [*] user can go back and select another category
+- [*] when user click on any news in the list he should be redirected to single news page which contain all details of this news
 - [] the UI of the screen should be acceptable and usable
-- [] all requirements should be implemented for web using Angular and Bootstrap and for Android using Angular and Ionic framework
+- [*] all requirements should be implemented for web using Angular and Bootstrap and for Android using Angular and Ionic framework
 
 ## API
 

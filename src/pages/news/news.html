@@ -1,0 +1,46 @@
+<!--
+  Generated template for the NewsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{cat}} News</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-searchbar (ionInput)="search($event)"></ion-searchbar>
+  
+  <ion-list>
+    <ion-item *ngIf="articles?.length == 0">
+      There is no results
+    </ion-item>
+  </ion-list>
+
+  <ion-card (click)="goToSingleNews(article)" *ngFor="let article of articles">
+
+    <div class="source">
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/rss.png">
+        </ion-avatar>
+        <h2>{{article.source.name}}</h2>
+        <p>{{article.author}}</p>
+      </ion-item>
+    </div>
+
+    <ion-card-content>
+      <ion-card-title>
+        {{article.title}}
+      </ion-card-title>
+      <p>
+        {{article.description}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
